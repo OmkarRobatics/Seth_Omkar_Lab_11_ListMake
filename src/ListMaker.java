@@ -9,9 +9,11 @@ public class ListMaker {
                 boolean done = false;
                 String itemAdded = "";
                 int deletingItem = 0;
+                boolean validItem = false;
                 String command = "";
                 Scanner in = new Scanner(System.in);
                 DisplayList();
+
                 do
                 {
 
@@ -25,9 +27,34 @@ public class ListMaker {
                             DisplayList();
                             break;
                             case "D":
-                                deletingItem = SafeInput.getInt(in,"Enter the number of the item you would like to delete on the list");
-                                deletingItem = deletingItem - 1;
-                                list.remove(deletingItem);
+                                if (list.size() == 0)
+                                {
+                                    System.out.println("You can not delete anything from the list because it is empty. Add something first.");
+                                }
+                                else {
+                                    deletingItem = SafeInput.getInt(in, "Enter the number of the item you would like to delete on the list");
+
+                                    if (list.size() >= deletingItem && deletingItem > 0)
+                                    {
+                                        deletingItem = deletingItem - 1;
+                                        list.remove(deletingItem);
+                                    }
+                                    else
+                                    {
+                                        do {
+                                            System.out.println("You entered an invalid number: " + deletingItem + "." + " Please try again.");
+                                            deletingItem = SafeInput.getInt(in, "Enter the number of the item you would like to delete on the list");
+
+                                            if (list.size() >= deletingItem && deletingItem > 0)
+                                            {
+                                                deletingItem = deletingItem - 1;
+                                                list.remove(deletingItem);
+                                                validItem = true;
+                                            }
+                                        }while (!validItem);
+
+                                    }
+                                }
                             break;
                         case "P":
                             DisplayList();

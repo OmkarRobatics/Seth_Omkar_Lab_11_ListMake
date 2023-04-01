@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a27e2e23-028c-4c21-8b47-a51f906c6281" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seth_Omkar_Lab_11_ListMake.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ListMaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SafeInput.java" afterDir="false" />
+    <list default="true" id="a27e2e23-028c-4c21-8b47-a51f906c6281" name="Changes" comment="Project Init">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListMaker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +60,18 @@
       <option name="presentableId" value="Default" />
       <updated>1679850039279</updated>
     </task>
+    <task id="LOCAL-00001" summary="Project Init">
+      <created>1680305323013</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680305323013</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Project Init" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project Init" />
   </component>
 </project>
