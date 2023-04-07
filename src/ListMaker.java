@@ -31,7 +31,7 @@ public class ListMaker {
                     } else {
                         deletingItem = SafeInput.getRangedInt(in, "Enter the number of the item you would like to delete on the list", 1, list.size()); // if list is not empty the number of the item to delete is inputted with safe input
                         deletingItem = deletingItem - 1; // subtracts one from the number so that the number entered can become an index
-                        list.remove(deletingItem); // deletes item from list
+                        list.remove(deletingItem); // deletes the item from list
                     }
                     break;
                 case "P":
