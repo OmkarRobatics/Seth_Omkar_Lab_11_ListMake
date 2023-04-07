@@ -5,7 +5,7 @@ public class ListMaker {
     private static final ArrayList<String> list = new ArrayList<>(); // declaration of array list
 
     public static void main(String[] args) {
-        // var declaration
+        // var declarations
         final String menu = "A - Add D - Delete P - Print Q - Quit"; // menu options
         boolean done = false; // var to end program
         String itemAdded = ""; // the item the user adds
