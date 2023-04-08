@@ -35,7 +35,7 @@ public class ListMaker {
                     }
                     break;
                 case "P":
-                    DisplayList(); // displays list
+                    // nothing happens in this case as list will be shown any ways
                     break;
                 case "Q":
                     done = SafeInput.getYNConfirm(in, "Are you sure you want to quit? Enter Y for yes and N for no: "); // prompts user if they want to quit for sure.
@@ -52,7 +52,7 @@ public class ListMaker {
                 System.out.printf("\n%3d%35s", index + 1, list.get(index)); // enters item user wants to add with numbers
             }
         } else {
-            System.out.println("***             No Items in List                  ***"); // tells user that there are no items in list
+            System.out.println("\n***             No Items in List                  ***"); // tells user that there are no items in list
         }
         System.out.println("\n*****************************************************"); // border on bottom
 
